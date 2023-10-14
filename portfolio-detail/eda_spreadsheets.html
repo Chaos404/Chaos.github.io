@@ -1,0 +1,166 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<body>
+		<div class="col-md-8 col-md-offset-2 portfolio-content text-center">
+			<h1 class="blog-title">Exploratory Data Analysis (EDA) in Spreadsheets</h1>
+			<figure class="top_45 bottom_45"> 
+				<img src="../images/portofolio/663923162_orig.png" alt="">
+			</figure>
+			<div class="section-title bottom_30"><span></span><h2>Background</h2></div>
+            <p style="text-align: justify; text-indent: 0.5in;">In this case, you are the data analyst of Luxura, which is an e-commerce
+                company focusing on selling luxury fashion products. The store exclusively sells
+                several globally-famous brands, such as Adibi, Balena, and Celinna. These
+                famous brands are partnering with Luxura to specifically sell and market their
+                products to the Indonesian fashion market, because their market share has
+                increased 38% combined in the last 3 years. The increasing market share is
+                competitive between them, because they have similar price range & product
+                types. These three brands do not have any partner store other than Luxura.
+                Because of this exclusivity, Luxura has a mission to prioritize either Adibi,
+                Balena, or Celina marketing. Luxura hasn't decided about which brand to focus
+                on. Yet, based on partnership fee data, Adibi has paid 80 million US dollars to
+                Luxura in February 2023, which was the highest fee ever paid to Luxura.
+                Miss Sofia, your Head of Data, is someone who believes strongly in data.
+                She will believe anything, if it has numbers & meanings. In this case, all the
+                bosses in the company wanted to prioritize Adibi because it paid the hiahest fee
+                to Luxura, but Miss Sofia believes we need to take a look at the purchase
+                performance first. She wants to learn from past purchase data, which has been
+                handed-over to vou. The data consists of purchase information and identitv of
+                each user who has made a purchase to Luxura in the last quarter of 2022 (3
+                months of data). Hence, Miss Sofia expects you to deliver insights on this
+                matter before the companv makes a decision.
+                To deliver the insights, first you need to understand the business
+                problem and the data you have.
+                </p>
+            <div class="section-title bottom_15"><span></span><h2>Identifying Dataset</h2></div>
+            <b><p class="text-left top_15 bottom_15"><span>Dataset :</span><a href="https://docs.google.com/spreadsheets/d/105w_VP-LPHCY1UBIMBpawQU_Ilj60BWF3dByKdE8vzM/edit#gid=420626643">     Download </a></b></p>
+            <ol class="portfolio-content text-left">
+                <li><p><b>Business Understanding</b></p></li>
+                <li><p><b>Fixed Missing Value</b></p></li>
+                <li><p><b>Fixed Data Type</b></p></li>
+                <li><p><b>Clean up the data (Data Cleaning & Manipulating)</b></p></li>
+                    <ul style="text-align: left;padding-left: 20px;">
+                        <li><p>Remove rows and columns with missing data</p></li>
+                        <li><p>Remove rows with duplicated</p></li>
+                    </ul>
+                <li><p><b>Analyze Data to Find Outlier Limits</b></p></li>
+                <!-- <figure> -->
+                    <img src="../images/portofolio/outlier.png" style="height: 150px;" alt="">
+                <!-- </figure> -->
+                <li><p><b>Descriptive Analytics to know the Data Distribution and Spotting Outliers</b></p></li>
+                <figure>
+                    <img src="../images/portofolio/eda_1.png" alt="">
+                </figure>
+            </ol>
+            
+            <div class="section-title top_30 bottom_30"><span></span><h2>Exploratory Data Analysis (EDA)</h2></div>
+            <ol class="portfolio-content text-left">
+                <li><p><b>Purchase Performance Between Adibi, Balena, and Celinna</b></p></li>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <figure><img src="../images/portofolio/sales1.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <figure><img src="../images/portofolio/sales2.png" alt=""></figure>
+                        </div>
+                    </div>                                        
+                </div>
+                <p style="text-align: justify; text-indent: 0.5in;">Of the three partners, judging by the Qty the highest sales were Adibi, but the sales revenue was small. On the other hand, in Celinna Qty sales are low but sales revenue is high. This happened because Adibi Partners sold relatively cheap products, resulting in high purchases of Adibi products.</p>                
+                <li><p><b>Relatively Lowest Product Purchased Based on Monetary Value</b></p></li>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <figure><img src="../images/portofolio/purchase.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">                        
+                            <p style="text-align: justify; text-indent: 0.5in;">The Relatively Lowest Product Purchased Based on Value For Money is From Adibi. this Happened because the Products Offered by Adibi Were Relatively Cheap in Terms of Price.</p>
+                    </div>                                        
+                </div>
+                <li><p><b>Difference of Purchase Behavior Between Users Who are Married Vs Not Married</b></p></li>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p style="text-align: justify; text-indent: 0.5in;">In purchasing behavior, buyers who are single make more purchase transactions compared to those who are not single (divorced/separated/married/widowed). In my opinion, this happens because what is being sold is luxury fashion products, so the average buyer is still single and young. Apart from that, single status does not have much economic responsibility for the family.</p>                        
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">                        
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <figure><img src="../images/portofolio/marital_status.png" alt=""></figure>
+                        </div>
+                    </div>                                        
+                </div>
+                <li><p><b>Differences in Purchasing Behavior between Users based on Their Purchasing Power based on Income</b></p></li>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">                        
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <figure><img src="../images/portofolio/income.png" alt=""></figure>
+                        </div>
+                    </div>  
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p style="text-align: justify; text-indent: 0.5in;">From the income classification that i made, the data shows that those who are interested in buying the highest product are those who have a middle income. at middle income there are also many customers who are range from 32 to 60 years old and single, so that the purchasing power is also influenced by this status.</p>                        
+                    </div>                                                          
+                </div>         
+            </ol>
+
+            <div class="section-title top_30 bottom_30"><span></span><h2>Hypothesis Testing</h2></div>
+            <ol class="portfolio-content text-left">
+                <li><p><b>Significant Differences in Purchase Value</b></p></li>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">                        
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <p style="text-align: center;">Between Adibi and Balena Purchase Value</p>
+                            <figure><img src="../images/portofolio/eda_t_test.png" alt=""></figure>
+                        </div>                        
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">                        
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <p style="text-align: center;">Between Adibi and Celinna Purchase Value</p>
+                            <figure><img src="../images/portofolio/eda_ac_p.png" alt=""></figure>
+                        </div>                        
+                    </div>                                       
+                </div> 
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <p style="text-align: center;">Between Balena and Celinna Purchase Value</p>
+                            <figure><img src="../images/portofolio/eda_bc_p.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p style="text-align: justify; text-indent: 0.5in;">Looking at the results of the t test, it is known that there is a significant difference between the purchase of Balena and the purchase of Celinna from the purchase of the two products. It is proved that the <b>P Value(0,00)</b> is smaller than the <b>Alpha Threshold(0,05)</b>, which means we <b>reject null hypothesis</b>. Besides that the mean value also shows a significant difference.</p>                
+                    </div>    
+                                                       
+                </div>                                
+                <li><p><b>Insights Based on Results in the Results Above</b></p></li>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div style="box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08); padding: 20px">
+                            <figure><img src="../images/portofolio/eda_spread_insight.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <p style="text-align: justify; text-indent: 0.5in;">Calculations using the t-test on the three sales data of Luxura business partners, the mean and variance show the results of significant differences, not the same. So it can be interpreted that the purchase value of Luxura partners (Adibi, Balena, Celinna) does not affect each other. But of the three business partners, Celinna has the highest purchase value, then Belina, and lastly Adibi.</p>         
+                    </div>                                        
+                </div> 
+            </ol>
+			<br>
+			<!-- <p><span>Client:</span> Tavilla Themes</p> -->
+			<br>
+            <div class="social-share col-md-12 bottom_60 top_15">
+                <ul>
+					<li><a href="https://www.instagram.com/alvicky__"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/alvicky__"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="mailto:muhammadvickyalhasri31@gmail.com"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/alvicky/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
+            </div>
+		</div>
+
+</body>
+</html>
+
+
